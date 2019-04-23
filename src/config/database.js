@@ -1,8 +1,8 @@
 module.exports = {
-  dialect: 'mysql',
+  dialect: 'postgres',
   host: '127.0.0.1',
-  username: 'root',
-  password: '',
+  username: 'docker',
+  password: 'docker',
   database: 'gonodemodulo02',
   operatorAliases: false,
   define: {
